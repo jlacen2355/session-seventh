@@ -5,17 +5,20 @@ public class Video {
     /*
      *  Instance variables: states of Video
      */
-    int videoId;
+    long videoId;
     String video;
     String vName;
     String hashTag;
     String channel;
+    String category;
     String postDate;
     Boolean isDownloadable;
-    float duration;
-    int views;
-    int likes;
-    int dislikes;
+    long duration;
+    long views;
+    long likes;
+    long dislikes;
+
+
 
 
     /*
