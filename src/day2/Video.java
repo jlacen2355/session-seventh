@@ -5,15 +5,18 @@ public class Video {
     /*
      *  Instance variables: states of Video
      */
+    int videoId;
     String video;
-    String vname;
-    String hashtag;
-    String creator;
-    String postdate;
+    String vName;
+    String hashTag;
+    String channel;
+    String postDate;
+    Boolean isDownloadable;
     float duration;
     int views;
     int likes;
     int dislikes;
+
 
     /*
      *  Instance methods: behaviors of Video
@@ -31,7 +34,7 @@ public class Video {
     void nextVideo(){
         System.out.println("nextvideo");
     }
-    void autoplayVideo(){
+    void autoPlayVideo(){
         System.out.println("autoplayvideo");
     }
     void videoVolumen(){
@@ -40,16 +43,16 @@ public class Video {
     void ccVideo(){
         System.out.println("caption/subtitle-(on/off)");
     }
-    void videosetting(){
+    void videoSetting(){
         System.out.println("settingvideoparameters");
     }
-    void videoscreen(){
+    void videoScreen(){
         System.out.println("videoscreensize");
     }
-    void videolikes(){
+    void videoLikes(){
         System.out.println("showingvideolikes");
     }
-    void videodislikes(){
+    void videoDislikes(){
         System.out.println("showingvideodislikes");
     }
     void shareVideo(){
