@@ -9,7 +9,6 @@ public class Slider {
 
     //Behaviours
 
-    //openLink
-    //
+    //openLin
 
 }
