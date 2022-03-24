@@ -13,7 +13,7 @@ public class Video {
     String category;
     String description;
     String postDate;
-    Boolean isDownloadable;
+    boolean isDownloadable;
     long subscribers;
     long duration;
     long views;
