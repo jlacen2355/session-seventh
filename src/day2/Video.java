@@ -5,14 +5,16 @@ public class Video {
     /*
      *  Instance variables: states of Video
      */
-    long videoId;
+    String videoId;
     String video;
     String vName;
     String hashTag;
     String channel;
     String category;
+    String description;
     String postDate;
     Boolean isDownloadable;
+    long subscribers;
     long duration;
     long views;
     long likes;
