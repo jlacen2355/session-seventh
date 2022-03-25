@@ -9,7 +9,7 @@ public class MathOperations {
         int c = 10;
 
         //Option #1
-        int x;
+        int x=0;
         x = ((a+b)*c);
         System.out.println(x);
 
