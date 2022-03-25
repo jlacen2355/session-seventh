@@ -2,8 +2,8 @@ package day4;
 
 public class RelationalOperatorPractice {
     public static void main(String[] args) {
-        int m = 2;
-        int n = 3;
+//        int m = 2;
+//        int n = 3;
 
 //        boolean isEqual = m == n;
 //        System.out.println(isEqual);
