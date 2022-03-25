@@ -5,7 +5,6 @@ public class MaxNumberAssigment {
    static int a = 25;
    static int b = 50;
    static int c = 100;
-   static int result=0;
 
     public static void main(String[] args) {
 
