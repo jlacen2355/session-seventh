@@ -38,5 +38,6 @@ public class MaxNumberAssigment {
 //        result = Math.max(result,b);
 //        result = Math.max(result,c);
 //        System.out.println("Maximum Number is --> " + result);
+
     }
 }
