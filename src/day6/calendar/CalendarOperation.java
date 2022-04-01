@@ -39,7 +39,7 @@ public class CalendarOperation {
 
         //Option #1
         Calendar dateOfBirthday = Calendar.getInstance();
-        dateOfBirthday.set(getYear(), getMonth(), getDay());
+        dateOfBirthday.set(this.getYear(), this.getMonth(), this.getDay());
         System.out.println("My Birthday is in --> " + Month.of(dateOfBirthday.get(Calendar.MONTH)).name() + " " + dateOfBirthday.get(Calendar.DATE) + " " + dateOfBirthday.get(Calendar.YEAR));
 
 
