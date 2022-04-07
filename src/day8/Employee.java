@@ -30,10 +30,7 @@ public class Employee {
     }
 
     public Employee(String name, int age, double salary, Calendar hireDate, String drivingLicenceNumber) {
-        this.name = name;
-        this.age = age;
-        this.salary = salary;
-        this.hireDate = hireDate;
+        this(name, age, salary, hireDate);  //Calling a cosntructor from another, here we are reusing the variables from first constructor
         this.drivingLicenceNumber = drivingLicenceNumber;
     }
 
