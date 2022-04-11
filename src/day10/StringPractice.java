@@ -32,7 +32,7 @@ public class StringPractice {
         String repeated = "Java ".repeat(100);
         System.out.println(repeated);
 
-        //String Builder to
+        //String Builder More easy
         StringBuilder sb = new StringBuilder();
         sb.append("S");
         sb.append("/");
