@@ -1,4 +1,4 @@
-package day9.Practice;
+package day9.practice;
 
 /**
  * This Class contains all the data variables to store employee information
