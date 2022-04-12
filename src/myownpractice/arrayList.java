@@ -20,6 +20,19 @@ public class arrayList {
         //Change an Item in the array list
         System.out.println(carriers.set(1, "GFI"));
 
+        //Removing an item
+        System.out.println(carriers.remove(0));
+
+        //Removing all items
+        carriers.clear();
+
+        //To get the size of arrayList
+        System.out.println(carriers.size());
+
+
+
+
+
     }
 
 }
