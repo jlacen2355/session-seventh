@@ -14,19 +14,19 @@ public class SchoolGrades {
         System.out.println("Enter your grades in points (number) for every School Class: Example english --> 90");
 
         System.out.println("Enter grade for Math");
-        float avgGrade = studentInput.nextInt();
+        float avgGrade = studentInput.n.nextFloat();
 
         System.out.println("Enter grade for Science");
-        avgGrade += studentInput.nextInt();
+        avgGrade += studentInput.nextFloat();
 
         System.out.println("Enter grade for English");
-        avgGrade += studentInput.nextInt();
+        avgGrade += studentInput.nextFloat();
 
         System.out.println("Enter grade for History");
-        avgGrade += studentInput.nextInt();
+        avgGrade += studentInput.nextFloat();
 
         System.out.println("Enter grade for Chemistry");
-        avgGrade += studentInput.nextInt();
+        avgGrade += studentInput.nextFloat();
 
         //Option #1
         avgGrade /= 500;
