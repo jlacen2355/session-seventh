@@ -23,12 +23,11 @@ public class DescendantArray {
 
         //Second is the reversed Array (descendant)
         System.out.println("The numbers are sorted in reversed (decreasing way)...");
-        int counterLength = counter.length;
-        int[] counter2 = new int[counterLength];
+        int[] counter2 = new int[counter.length];
 
-        for(int i = 0; i < counterLength; i++){
+        for(int i = 0; i < counter.length; i++){
 
-            int decrease = counterLength - 1 - i;
+            int decrease = counter.length - 1 - i;
             counter2[i] = counter[decrease];
             System.out.println(counter2[i]);
 
