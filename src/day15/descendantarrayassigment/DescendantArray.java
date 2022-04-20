@@ -2,7 +2,6 @@ package day15.descendantarrayassigment;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.*;
 
 public class DescendantArray {
 
