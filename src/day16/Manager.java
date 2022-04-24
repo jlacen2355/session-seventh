@@ -7,6 +7,7 @@ public sealed class Manager extends Employee permits Executive {
     public Manager(String name, int age, float salary, float bonus) {
         super(name,age,salary);
         this.bonus = bonus;
+
     }
 
     public float getBonus(){
