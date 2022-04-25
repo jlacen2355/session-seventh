@@ -29,7 +29,6 @@ public class ArrayLimitationsAssignment {
         Limitations of Arrays
         -It is not resizable (Size of an array can't be modified)
         -It can't add or remove elements.
-        -It can't store data of a single type.
         -It wastes memory if it is declared in a larger size than the real size needed.
          */
 
@@ -50,5 +49,6 @@ public class ArrayLimitationsAssignment {
         System.out.println(numbers);
 
     }
+
 
 }
