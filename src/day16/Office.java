@@ -1,9 +1,10 @@
 package day16;
 
-public class Officce {
+public class Office {
 
     public static void main(String[] args) {
         Employee employee = new Employee("James", 35, 5000);
+
         Employee boss = new Manager("Carlos", 33, 8000, 4000);
         Employee executive = new Executive("BJ", 40, 8000, 1000, 1000);
 
@@ -20,8 +21,8 @@ public class Officce {
         System.out.println(employees[1].getSalary());
         System.out.println(employees[2].getSalary());
 
-        if(employees[2] instanceof Manager) {
-            System.out.println(((Manager) employees[2]).getBonus());
+        if(employees[1] instanceof Manager) {
+            System.out.println(((Manager) employees[1]).getBonus());
         }
 
     }
