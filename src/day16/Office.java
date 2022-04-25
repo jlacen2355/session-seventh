@@ -6,7 +6,10 @@ public class Office {
         Employee employee = new Employee("James", 35, 5000);
 
         Employee boss = new Manager("Carlos", 33, 8000, 4000);
+
         Employee executive = new Executive("BJ", 40, 8000, 1000, 1000);
+
+        boss.getName();
 
         System.out.println(employee.getSalary());
         System.out.println(boss.getSalary());
