@@ -28,5 +28,11 @@ public class ArraySorting {
         for(User user : users){
             System.out.println(user);
         }
+
+//        Comparable<User> userComparable = new Comparable<User>();
+        Comparable<User> userComparable1 = new User("James", "jlace2355@hotmail.com");
+
+
+
     }
 }
