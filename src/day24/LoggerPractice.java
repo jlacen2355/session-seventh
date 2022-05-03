@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class LoggerPractice {
 
-    private static final Logger myLogger = Logger.getLogger("com.mycompany.myapp");
+    private static final Logger myLogger = Logger.getLogger("day24");
 
     public static void main(String[] args) {
 

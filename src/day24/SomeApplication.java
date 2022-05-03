@@ -11,9 +11,9 @@ public class SomeApplication {
         try {
             //open database
             user1.registerUser();
-        }catch (Exception ex){
-            ex.printStackTrace();
-            Logger.getGlobal(ex.getMessage());
+        }catch (Exception e){
+            e.printStackTrace();
+            Logger.getGlobal().severe(e.getMessage());
         }finally {
             System.out.println("Finally block is getting called");
             //close database
