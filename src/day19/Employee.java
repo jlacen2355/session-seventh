@@ -3,7 +3,7 @@ package day19;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements Comparable<Employee>{
 
     private String name;
     private float salary;
@@ -15,14 +15,6 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", salary=" + salary +
-                ", hireDate=" + hireDate +
-                '}';
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -35,5 +27,20 @@ public class Employee {
     @Override
     public int hashCode() {
         return Objects.hash(name, salary, hireDate);
+    }
+
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", hireDate=" + hireDate +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return hireDate.compareTo(o.hireDate);
     }
 }
