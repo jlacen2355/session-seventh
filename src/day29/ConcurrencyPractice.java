@@ -25,10 +25,6 @@ public class ConcurrencyPractice {
         thread1.start();
         thread2.start();
 
-
-
-
-
     }
 
     public static void transaction(int a, int b, int amount){
